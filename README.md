@@ -27,4 +27,9 @@ Run the main.py file to see the algorithm in action.
 
 * NetworkX - The network Visualization library of Python.
 
+## PREVIEW
+
+![Result from the algorithm](https://github.com/scarlet2131/PBFT/blob/master/path.png)
+
+
 
