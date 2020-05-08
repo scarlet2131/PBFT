@@ -40,7 +40,7 @@ class getPlot:
             x,y = self.X[i],self.Y[i]
             edge_info[(x,y)] = self.W[i]
 
-        nx.draw_networkx(G,pos,with_labels = True, edge_color=colors, node_size = 500, width=W)
+        nx.draw_networkx(G,pos,with_labels = True, edge_color=colors, node_color='g', node_size = 500, width=W)
 
         # labels
         nx.draw_networkx_labels(G, pos, font_size=12, font_family='sans-serif',\
